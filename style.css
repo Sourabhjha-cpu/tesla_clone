@@ -1,0 +1,513 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page1 h1{
+    font-size: 60px;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 36%;
+
+}
+#page1 h4{
+    position: absolute;
+    top: 29%;
+    left: 40%;
+    font-size: 20px;
+}
+#page1 button{
+    font-size: 30px;
+    top: 80%;
+    position: absolute;
+    left: 45%;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: transparent;
+    border-color: white;
+    border: 3px solid white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#page1 button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-delay: 1s;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    z-index: 555;
+    mix-blend-mode: difference;
+    position: fixed;
+}
+#nav-prt1{
+    height: 30px;
+    position: fixed;
+    left: 3%;
+    top: 4%;
+
+}
+#nav-prt1 img{
+    height: 150px;
+    position: fixed;
+}
+#nav-prt2{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 3%;
+    left: 25%;
+    margin-top: 4%;
+    gap: 35px;
+    
+    
+}
+#nav-prt2 a{
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+#nav-prt2 a:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+#nav-prt3{
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    top: 3%;
+    position: fixed;
+    left: 80%;
+    gap: 30px;
+    padding-right: 20px;
+    mix-blend-mode: difference;
+}
+#nav-prt3 h3{
+    font-size: 25px;
+    
+    
+}
+#nav-prt3 h3:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+#page2{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 33;
+}
+#page2 img{
+    height: 100%;
+    width: 100%;
+}
+#page2 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page2 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+}
+#page2 #btn1{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page2 #btn2{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page3 img{
+    height: 100%;
+    width: 100%;
+}
+
+#page3 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page3 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+}
+#page3 #btn3{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page3 #btn4{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page4 img{
+    height: 100%;
+    width: 100%;
+}
+#page4 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page4 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+#page4 #btn5{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page4 #btn6{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#page5{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page5 img{
+    height: 100%;
+    width: 100%;
+}
+#page5 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page5 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+#page5 #btn7{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page5 #btn8{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page6{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page6 img{
+    height: 100%;
+    width: 100%;
+}
+#page6 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page6 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: underline;
+}
+#page6 #btn9{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page6 #btn10{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#page7{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page7 img{
+    height: 100%;
+    width: 100%;
+}
+#page7 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+#page7 h2{
+    color: black;
+    top: 21%;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-weight: 200;
+    
+}
+#page7 #btn11{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page7 #btn12{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#page8{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page8 img{
+    height: 100%;
+    width: 100%;
+}
+#page8 h1{
+    color: black;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    font-size: 50px;
+}
+
+#page8 #btn13{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 30%;
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page8 #btn14{
+    font-size: 30px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    background-color: grey;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#page9{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+#page9 img{
+    height: 100%;
+    width: 100%;
+}
+#page9 #btn15{
+    font-size: 30px;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    background-color: black;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#nav-prt4{
+    position: absolute;
+    bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    left: 30%;
+}
+#nav-prt4 h2{
+    font-size: 20px;
+    color: grey;
+}
+
+
+
+
+
+
+
+
